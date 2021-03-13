@@ -1,0 +1,22 @@
+[
+    {
+        "FirstName": "Rohan",
+        "LastName": "Bhautoo",
+        "Username": "Rohan2412",
+        "Gender": "Male",
+        "Dob": "1998-12-24",
+        "Address": "123, Example Street",
+        "Email": "rohanbhautoo@gmail.com",
+        "Password": "password"
+    },
+    {
+        "FirstName": "Elana",
+        "LastName": "Gilbert",
+        "Username": "Elana001",
+        "Gender": "Female",
+        "Dob": "1990-06-01",
+        "Address": "3240, Watson Lane Montgomery",
+        "Email": "elana@example.com",
+        "Password": "password"
+    }
+]

@@ -1,0 +1,286 @@
+/* Style the tab */
+.tab {
+  color: black;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the <a> in the tab section */
+.tab a {
+  font-size: 23px;
+  text-align: center;
+  outline: none;
+}
+
+.tabPadding {
+  padding: 8px 16px !important;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Add background image in cart section */
+#Cart {
+  height: 1200px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../Img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Makes image of product bought next to text */
+.productBought {
+  font-size: 30px;
+  float: left;
+  width: 65%;
+}
+
+.productDetails {
+  padding-top: 25px;
+}
+
+.product2Details {
+  padding-top: 60px;
+}
+
+/* Change appearance of the textinput field*/
+#Cart input[type="text"] {
+  color: white;
+  background: transparent;
+}
+
+/* Make buttons float next to each other */
+.buttonPosition {
+  float: right;
+}
+
+.buttonPosition3 {
+  text-align: right;
+}
+
+/* Style the price of product */
+#price {
+  margin-top: 23px;
+  float: left;
+  border: none;
+  border-color: transparent;
+}
+
+/* Style the button */
+.nextBtn,
+.confirmBtn {
+  background-color: rgb(231, 20, 20);
+  color: white;
+  padding: 12px 20px;
+  margin: 18px 0;
+  margin-right: 25px;
+  border: none;
+  cursor: pointer;
+  width: 180px;
+  opacity: 0.9;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Style button when user hover on it */
+.nextBtn:hover .confirmBtn:hover {
+  opacity: 1;
+}
+
+/* Style the cancel button */
+.cancelBtn {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  margin: 18px 0;
+  border: none;
+  cursor: pointer;
+  width: 180px;
+  opacity: 0.9;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.cancelBtn:hover {
+  opacity: 1;
+}
+
+/* Style the summary section */
+.summary {
+  font-size: 30px;
+  float: right;
+  width: 30%;
+}
+
+.checkOut {
+  font-size: 26px;
+}
+
+.displayPrice .shipping {
+  margin-top: 92px;
+}
+
+.displayPrice .totalPrice {
+  margin-top: 55px;
+}
+
+/* Changes the appearance of the shipping section */
+#Shipping {
+  height: 750px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../Img/background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.shippingDetails {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Removes dotted line when clicked */
+input[type="text"]:focus {
+  outline: none;
+}
+
+/* Style the text fiels */
+#name,
+#address,
+#country,
+#city,
+#zipCode,
+#phoneNum {
+  width: 550px;
+  padding: 12px 20px;
+  margin: 18px 30px 18px 0px;
+  border: none;
+  color: black;
+  background: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.name {
+  display: inline-block;
+}
+
+/* Style the address textfield */
+.shippingDetails #address {
+  width: 1135px;
+  padding: 12px 20px;
+  margin: 18px 30px 18px 0px;
+  border: none;
+  color: black;
+  background: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.country {
+  display: inline-block;
+}
+
+.city {
+  display: inline-block;
+}
+
+.zipCode {
+  display: inline-block;
+}
+
+.phoneNum {
+  display: inline-block;
+}
+
+/* Style the back button */
+.backBtn {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  margin: 18px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.backBtn:hover {
+  opacity: 1;
+}
+
+/* Style the confirmation section */
+#Confirmation {
+  height: 1000px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Img/background3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.confirmationMessage {
+  font-size: 23px;
+}
+
+/* Style table in confirmation tab */
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #ccc;
+  margin-bottom: 25px;
+  width: 1870px;
+}
+
+/* Style table data */
+.table td {
+  font-size: 23px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #ccc;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  vertical-align: top;
+}
+
+/* Style table headers */
+.table th {
+  font-size: 23px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #ccc;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Style total class in table */
+.table .total {
+  text-align: right;
+  vertical-align: top;
+}

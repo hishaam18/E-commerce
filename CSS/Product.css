@@ -1,0 +1,11 @@
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  min-height: 200px;
+}
+
+/* Styling Product description */
+.aside {
+  font-size: 25px;
+  text-align: center;
+  font-weight: normal;
+}

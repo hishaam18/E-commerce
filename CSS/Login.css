@@ -1,0 +1,78 @@
+/* Change the appearance of the register form */
+.login-page-content {
+  text-align: center;
+  padding: 0px;
+  color: white;
+}
+
+/* Change the appearance of the login form */
+.login-form {
+  height: 550px;
+  padding-top: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 100, 0.65)),
+    url("../Img/loginImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.login-image {
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 35px;
+}
+
+.login-image img {
+  max-width: 100%;
+}
+
+.login-content p {
+  font-size: 20px;
+}
+
+.login-content h3 {
+  font-size: 50px;
+}
+
+.to-register a {
+  color: dodgerblue;
+}
+
+#login_username,
+#login_password {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 18px 0px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+#login_username:focus,
+#login_password:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.login_button {
+  background-color: rgb(231, 20, 20);
+  color: white;
+  padding: 16px 20px;
+  margin: 18px 0;
+  border: none;
+  cursor: pointer;
+  width: 280px;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+.login_button:hover {
+  opacity: 1;
+}
+
+.to-register p {
+  font-size: 16px;
+}

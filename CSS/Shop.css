@@ -1,0 +1,79 @@
+/* Some padding is added to position the search bar */
+.jumbotron .searchContainer {
+  text-align: center;
+  color: white;
+}
+
+/* Apply style to search bar */
+.jumbotron input[type="text"] {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid black;
+  width: 750px;
+  background: black;
+}
+
+/* Apply style to search button */
+.jumbotron .searchContainer button {
+  padding: 10px 15px;
+  background: black;
+  font-size: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Button changes when mouse hovers over it */
+.jumbotron .searchContainer button:hover {
+  background: #ccc;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  min-height: 200px;
+}
+
+.col-sm-3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#shopContents .footer {
+  padding-top: 50px;
+}
+
+#Products {
+  font-size: 20px;
+}
+
+table {
+  border-spacing: 0 25px;
+}
+
+tr {
+  width: 100%;
+}
+
+td {
+  margin-top: 0;
+  padding: 20px;
+  vertical-align: top;
+  border-bottom: 1px solid black;
+}
+
+.addToCartButton {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 16px 20px;
+  margin: 18px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+.addToCartButton:hover {
+  opacity: 1;
+}

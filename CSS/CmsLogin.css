@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+/* Import Roboto fonts from folder */
+@font-face {
+  font-family: Roboto;
+  src: url("../Fonts/Roboto/Roboto-Regular.ttf");
+}
+
+/* 
+    Ensure that body and html uses 100% of website page. 
+    Smooth scroll is used for Features & Get-In-Touch option in nav bar.
+*/
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+/* Removes dotted line on a tags */
+a {
+  outline: none;
+}
+
+/* Styling the body of the page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Img/watchCms.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+/* Styling the header part of the page */
+header {
+  background-size: auto;
+  background-position: center;
+  height: 100px;
+}
+
+/* Styling the nav class */
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+}
+
+/* Styling of the nav ul */
+nav ul {
+  float: right;
+  margin: 0;
+  padding-right: 42px;
+}
+
+/* Styling of the ul li padding and display */
+nav ul li {
+  display: inline-block;
+  padding: 16px 32px;
+}
+
+/* Styling of the text, font size and color of the li */
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* The navigating buttons turn to green when the mouse is hovered on it */
+nav ul li a:hover {
+  color: lightgreen;
+}
+
+/* Styling the whole page layout */
+.main {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+/* Styling of the form box */
+.form-box {
+  width: 320px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  color: black;
+  border-radius: 20px;
+  background-color: rgb(255, 254, 253);
+  border-style: double;
+}
+
+/* Styling the h2 text in the form box */
+.form-box h2 {
+  padding-left: 95px;
+}
+
+/* Styling the input group position and width in the form box */
+.input-group {
+  top: 50px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+
+/* Styling the input fields in the form box */
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+  margin-left: 20px;
+}
+
+/* Styling the submit button */
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #4a90eb, #06ff3c);
+  border: 0;
+  outline: none;
+  margin-left: 35px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+/* The button changes to white the mouse is hovered on it */
+.submit-btn:hover {
+  color: rgb(255, 255, 255);
+}

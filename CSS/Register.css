@@ -1,0 +1,85 @@
+/* Change the appearance of the register form */
+.register-form {
+  height: 1500px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../Img/registerImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Adds line separator */
+.line-seperator-register {
+  padding-top: 10px;
+  color: black;
+}
+
+#line {
+  display: block;
+  width: 650px;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1em auto;
+}
+
+/* Style <a> tag to color blue */
+.to-login a {
+  color: dodgerblue;
+}
+
+.content p {
+  font-size: 25px;
+}
+
+/* Apply style to inputfields of register form */
+#register_firstName,
+#register_lastName,
+#register_username,
+#gender,
+#dob,
+#register_address,
+#register_email_address,
+#register_password,
+#confirm_password {
+  font-size: 20px;
+  width: 450px;
+  padding: 12px 20px;
+  margin: 18px 0px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  box-sizing: border-box;
+}
+
+/* Change textfield when user clicks on it */
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set style to button */
+.register_button {
+  background-color: rgb(231, 20, 20);
+  color: white;
+  padding: 16px 20px;
+  margin: 18px 0;
+  border: none;
+  cursor: pointer;
+  width: 280px;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+.register-button:hover {
+  opacity: 1;
+}
+
+.to-login p {
+  font-size: 20px;
+}

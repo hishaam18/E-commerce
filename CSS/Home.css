@@ -1,0 +1,413 @@
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+/* Import Roboto fonts from folder */
+@font-face {
+  font-family: Roboto;
+  src: url("../Fonts/Roboto/Roboto-Regular.ttf");
+}
+
+/* 
+    Ensure that body and html uses 100% of website page. 
+    Smooth scroll is used for Features & Get-In-Touch option in nav bar.
+*/
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+/* Removes dotted line on a tags */
+a {
+  outline: none;
+}
+
+/* Edits the navigation bar list.*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Make <li> in navigation bar floats left */
+li {
+  float: left;
+}
+
+/* Use 100% of width for all images */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* Sets font size of all <h3> tag */
+h3 {
+  font-size: 50px;
+}
+
+/* Navigaton Bar */
+.navigationBar {
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Moves contents to right side of navigation bar */
+.rightNavigationMenu a {
+  float: right;
+  text-align: center;
+  color: black;
+  padding: 19px 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* <a> tag changes when mouse hovers over it */
+.rightNavigationMenu a:hover {
+  background-color: black;
+  color: #ddd;
+}
+
+/* Navbar menus are positioned on right side */
+.main-menu {
+  float: right;
+}
+
+/* Moves contents to left side of navigation bar */
+.leftNavigationMenu {
+  float: left;
+  text-align: center;
+  color: black;
+  padding-left: 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Makes the p tag in jav bar to appear left */
+.leftNavigationMenu p {
+  margin-top: 20px;
+}
+
+/* Changes color of link */
+.leftNavigationMenu a {
+  color: dodgerblue;
+}
+
+/* Some padding is added to position the search bar */
+.searchContainer {
+  padding-left: 270px;
+  padding-top: 5px;
+}
+
+/* Apply style to search bar */
+.navigationBar input[type="text"] {
+  padding: 6px;
+  margin-top: 10px;
+  font-size: 20px;
+  border: 1px solid grey;
+  width: 600px;
+  background: #f1f1f1;
+}
+
+/* Apply style to search button */
+.navigationBar .searchContainer button {
+  padding: 6px 10px;
+  margin-top: 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+/* Button changes when mouse hovers over it */
+.navigationBar .searchContainer button:hover {
+  background: #ccc;
+}
+
+/* Change appearance h2 tag */
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* Change appearance h4 tag */
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* Add background image to jumbotron class */
+.jumbotron {
+  color: #fff;
+  padding: 100px 25px;
+  height: 350px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../Img/homeBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Change appearance h1 tag */
+.jumbotron h1 {
+  padding-top: 75px;
+}
+
+/* Change appearance of shopNow button */
+.jumbotron #shopNow {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 16px 20px;
+  margin: 18px 0;
+  border: none;
+  cursor: pointer;
+  width: 280px;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+/* Change appearance when user hover on shopNow button */
+.jumbotron #shopNow:hover {
+  opacity: 1;
+}
+
+/* Change appearance of <a> tag */
+#shopNow a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+/* Set color */
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+/* Makes logo to 50px */
+.logo-small {
+  color: #e3220b;
+  font-size: 50px;
+}
+
+.logo {
+  color: #e3220b;
+  font-size: 200px;
+}
+
+/* Change the appearance of featuredWatch class */
+.featuredWatch {
+  height: 500px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  margin-bottom: 150px;
+  margin-top: 0px;
+}
+
+/* Change appearance of mainImages class */
+.mainImages {
+  height: 450px;
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  margin-top: 0px;
+}
+
+/* Change appearance and font size of watchNP class */
+.watchNP {
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+/* Set width of images */
+.imageColumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.mainImages::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#about h4 {
+  font-size: 22px;
+}
+
+.glyphicon {
+  color: black;
+}
+
+.slideanim {
+  visibility: hidden;
+}
+
+/* Set animation when sliding */
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+/* Change appearance of the get-in-touch section */
+.get-in-touch {
+  height: 500px;
+  text-align: center;
+  padding-top: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 100, 0.7)),
+    url("../Img/contactImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Change appearance h3 tag */
+.get-in-touch h3 {
+  font-size: 50px;
+  color: white;
+}
+
+.get-in-touch p {
+  color: white;
+  font-size: 20px;
+}
+
+.contact #message {
+  height: 200px;
+  width: 1005px;
+  resize: none;
+}
+
+/* Change appearance of the textfieldss */
+.contact #fullName,
+.contact textarea,
+.contact #email {
+  width: 358px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+/* Set style to submit button in contact section */
+.contact .submit-button {
+  width: 280px;
+  height: 62px;
+  background-color: rgba(0, 153, 204);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Change appearance of the footer */
+.footer {
+  height: 460px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  background-color: black;
+}
+
+#myPage .footer {
+  padding-top: 50px;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+/* Add line separator in footer */
+.line-seperator-bottom {
+  opacity: 0.4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Set style of the social media button in footer */
+.social-button {
+  padding-top: 2px;
+}
+
+.fab {
+  padding: 13px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7px 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook-f {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest-p {
+  background: #bd081c;
+  color: white;
+}
